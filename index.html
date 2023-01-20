@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <title>Website Portofolio - Muhamad Bagas Widyatama</title>
+  </head>
+  <body>
+    <!-- Header Start-->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >muhamadbagas
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang Saya
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portofolio
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#certificate"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Sertifikat
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#artworks"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Karya
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#contacts"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Kontak
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <!-- Hero Left -->
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Halo Semua👋, saya
+              <span class="block font-bold text-dark text-3xl mt-1 lg:text-4xl"
+                >Muhamad Bagas Widyatama</span
+              >
+            </h1>
+            <h2
+              class="font-medium text-secondary text-lg mb-5 lg:text-2xl lg:mt-2"
+            >
+              Website Developer
+            </h2>
+            <p
+              class="font-medium text-secondary mb-4 md:mb-6 leading-relaxed text-justify"
+            >
+              Mahasiswa Politeknik Negeri Media Kreatif dengan program studi D4
+              Teknologi Rekayasa Multimedia, yang ingin menjadi seorang
+              <span class="text-dark font-semi-bold"
+                >Front-End Web Developer</span
+              >
+              profesional.
+            </p>
+            <div class="flex flex-wrap">
+              <a
+                href="#contacts"
+                class="text-base font-semibold text-white bg-primary py-3 px-6 my-2 mr-2 sm:mr-2 sm:my-0 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+                >Hubungi Saya
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1IA03421ZhM8SsFVddhStUMsjdG2O4QJO/view?usp=sharing"
+                target="_blank"
+                class="text-base font-semibold text-primary bg-white border-2 border-primary py-3 px-6 my-2 sm:mx-3 sm:my-0 rounded-full hover:shadow-lg transition duration-300 ease-in-out"
+                >Lihat CV
+              </a>
+            </div>
+          </div>
+          <!-- Hero Left End -->
+
+          <!-- Hero Right Start -->
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="dist/img/avatar.png"
+                alt="Muhamad Bagas Widyatama"
+                class="max-w-full mx-auto"
+              />
+              <span
+                class="absolute -bottom-16 -z-10 left-1/2 -translate-x-1/2 md:scale-125 md:bottom-16"
+              >
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#3b82f6"
+                    d="M36.8,-41.5C49.5,-33.1,63.1,-23.3,68,-9.9C72.8,3.5,69,20.6,59.4,31.6C49.8,42.7,34.6,47.8,19.2,54.1C3.8,60.3,-11.8,67.6,-28.6,66.7C-45.4,65.7,-63.5,56.4,-70.7,41.8C-78,27.2,-74.4,7.4,-68.7,-9.9C-63,-27.2,-55.3,-42,-43.5,-50.6C-31.7,-59.2,-15.9,-61.6,-1.9,-59.3C12,-57,24,-49.9,36.8,-41.5Z"
+                    transform="translate(100 100) scale(1)"
+                  />
+                </svg>
+              </span>
+            </div>
+            <!-- Hero Right End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start-->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+              Front-End Web Developer
+            </h2>
+            <p
+              class="font-medium text-base text-secondary max-w-xl lg:text-lg text-justify"
+            >
+              Saya merupakan mahasiswa semester 6 yang sedang mencari pengalaman
+              magang untuk dapat terjun langsung ke
+              <i>real world project</i> sebagai seorang Front-End Web Developer.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-6 lg:text-3xl lg:pt-10"
+            >
+              Mari Saling Terhubung
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Untuk dapat mengenal lebih dekat, mari saling terhubung di media
+              sosial berikut yang saya miliki.
+            </p>
+            <div class="flex items-center">
+              <!-- Gmail -->
+              <a
+                href="mailto:muhamadbagaswidyatama@gmail.com"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Gmail</title>
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/mbw.joy"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Github -->
+              <a
+                href="https://www.github.com/muhamadbagas"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/muhamad-bagas-widyatama/"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Portfolio Section Start-->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold uppercase text-lg text-primary mb-2">
+              Portofolio
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 md:text-4xl">
+              Project Website
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Beberapa hasil website yang pernah saya buat sebagai hasil
+              implementasi dari ilmu pemrograman website yang telah saya
+              pelajari.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portfolio/1.png"
+                alt="Website Penjualan Furniture"
+                class="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website Penjualan Furniture
+            </h3>
+            <p
+              class="font-medium text-base text-secondary mb-5 text-justify leading-relaxed"
+            >
+              Project ini merupakan project terbaru yang selesai dibuat pada
+              Januari 2023, berupa tampilan e-commerce untuk produk furniture.
+              Website ini dibangun di atas teknologi React.js dengan Tailwind
+              CSS. Project ini juga merupakan hasil implementasi dari
+              pembelajaran pada platform buildwithangga.
+            </p>
+            <a
+              href="https://muhamad-bagas-luxspace-react-app.netlify.app/"
+              target="_blank"
+              class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+              >Lihat Website</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portfolio/2.png"
+                alt="Website Company Profile"
+                class="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website Company Profile
+            </h3>
+            <p
+              class="font-medium text-base text-secondary mb-5 text-justify leading-relaxed"
+            >
+              Project ini merupakan web company profile cafe yang saya buat pada
+              Agustus 2022. Website ini dibangun menggunakan HTML, CSS, dan
+              JavaScript murni tanpa bantuan framework. Project ini juga
+              merupakan submission dari pembelajaran pada platform dicoding dan
+              mendapatkan penilaian bintang 5 dari reviewer.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+              >Lihat Website</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portfolio/3.png"
+                alt="Website Rak Buku"
+                class="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website Rak Buku
+            </h3>
+            <p
+              class="font-medium text-base text-secondary mb-5 text-justify leading-relaxed"
+            >
+              Project ini merupakan web yang dibuat untuk menyerupai fungsi rak
+              buku pada dunia nyata, web ini saya buat pada Agustus 2022.
+              Website ini dibangun dengan fokus tujuan untuk memanfaatkan API
+              DOM dan Local Storage pada browser. Project ini juga merupakan
+              submission dari pembelajaran pada platform dicoding dan
+              mendapatkan penilaian bintang 4 dari reviewer.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+              >Lihat Website</a
+            >
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portfolio/4.png"
+                alt="project satu"
+                class="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website PPDB
+            </h3>
+            <p
+              class="font-medium text-base text-secondary mb-5 text-justify leading-relaxed"
+            >
+              Project ini merupakan web PPDB untuk pendaftaran siswa SMA, web
+              ini saya buat pada September 2021. Website ini dibangun dengan
+              teknologi HTML, Bootstrap CSS, PHP, dengan menggunakan MySQL
+              sebagai databasenya. Project ini merupakan hasil uji kompetensi
+              untuk ujian sertifikasi Junior Web Developer yang diselenggarakan
+              oleh VSGA 2021 dari Kemenkominfo.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+              >Lihat Website</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End-->
+
+    <!-- Certificate Section Start-->
+    <section id="certificate" class="pt-36 pb-32 bg-slate-700">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold uppercase text-lg text-primary mb-2">
+              Sertifikat
+            </h4>
+            <h2 class="font-bold text-white text-3xl mb-4 md:text-4xl">
+              Sertifikat Pelatihan
+            </h2>
+            <p class="font-medium text-md text-slate-300 md:text-lg">
+              Sertifikat kompetensi yang telah saya dapatkan selama masa kuliah.
+            </p>
+          </div>
+          <div
+            class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+          >
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/1.jpg"
+                  alt="Sertifikat Belajar Dasar Pemrograman"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Belajar Dasar Pemrograman
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari dasar pemrograman web yaitu HTML dan CSS, serta
+                pengenalan kepada bahasa pemrograman JavaScript.
+              </p>
+              <a
+                href="https://www.dicoding.com/certificates/2VX317ER3ZYQ"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/2.jpg"
+                  alt="Sertifikat Belajar Membuat Front-End Web untuk Pemula"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Belajar Membuat Front-End Web
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari CSS dan JavaScript dengan lebih dalam untuk
+                memaksimalkan tampilan website agar lebih dinamis.
+              </p>
+              <a
+                href="https://www.dicoding.com/certificates/07Z6R9E4RPQR"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/3.jpg"
+                  alt="Sertifikat Belajar Dasar Pemrograman JavaScript"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Belajar Dasar Pemrograman JavaScript
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari dasar pemrograman JavaScript lebih dalam serta cara
+                implementasi ke dalam website.
+              </p>
+              <a
+                href="https://www.dicoding.com/certificates/6RPN630E4P2M"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/4.jpg"
+                  alt="Sertifikat Belajar Membuat Aplikasi Back-End untuk Pemula"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Belajar Membuat Aplikasi Back-End
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari penggunaan JavaScript untuk dijalankan di sisi
+                server menggunakan teknologi Node.js serta penerapannya.
+              </p>
+              <a
+                href="https://www.dicoding.com/certificates/ERZR0YW12XYV"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/5.jpg"
+                  alt="Sertifikat Mastering Web Development with React & Tailwind CSS"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Membuat Web Menggunakan React & Tailwind
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari penerapan framework React.js untuk penggunaan
+                JavaScript yang lebih advanced dan juga menggunakan Tailwind CSS
+                sebagai framework CSS yang lebih simpel.
+              </p>
+              <a
+                href="https://buildwithangga.com/talent/bagasmuhamad665650/master-class-react-js-dan-tailwind-css-website-development"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/certificate/6.png"
+                  alt="Sertifikat Junior Web Developer"
+                  class="w-full"
+                />
+              </div>
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Junior Web Developer
+              </h3>
+              <p class="font-medium text-base text-slate-300 mb-5 text-justify">
+                Mempelajari bagian Front-End (HTML & CSS), Back-End (PHP), dan
+                Database (MySQL) untuk membuat website yang dapat berfungsi
+                secara utuh.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/19ghFep7YghDAHTzTwS97F3JpzIQf5Mp4/view?usp=sharing"
+                target="_blank"
+                class="font-medium text-sm text-white bg-dark py-3 px-6 rounded-lg hover:opacity-80"
+                >Lihat Kredensial</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Certificate Section End-->
+
+    <!-- Artworks Section Start-->
+    <section id="artworks" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold uppercase text-lg text-primary mb-2">
+              Karya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 md:text-4xl">
+              Hasil Karya
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Beberapa hasil karya yang pernah saya buat selama masa kuliah.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/artwork/1.jpg" alt="Desain" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://drive.google.com/drive/folders/1IPo9eleEVfzEE8Oaj6ZONyPbNrSqCXBA?usp=sharing"
+                    target="_blank"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >Desain Grafis</a
+                  >
+                </h3>
+                <p
+                  class="font-medium text-base text-secondary mb-6 text-justify"
+                >
+                  Hasil karya rekayasa gambar menggunakan Adobe Illustrator dan
+                  Adobe Photoshop.
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1IPo9eleEVfzEE8Oaj6ZONyPbNrSqCXBA?usp=sharing"
+                  target="_blank"
+                  class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+                  >Lihat Karya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/artwork/2.png" alt="Desain" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://drive.google.com/drive/folders/1fx-VZ4mDiaFr-jW6gNmFj6DbjvIx68JM?usp=sharing"
+                    target="_blank"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >3D Modelling</a
+                  >
+                </h3>
+                <p
+                  class="font-medium text-base text-secondary mb-6 text-justify"
+                >
+                  Hasil karya berupa 3D Model yang saya buat dengan menggunakan
+                  software Blender.
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1fx-VZ4mDiaFr-jW6gNmFj6DbjvIx68JM?usp=sharing"
+                  target="_blank"
+                  class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+                  >Lihat Karya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/artwork/3.png" alt="Desain" class="w-full" />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://drive.google.com/drive/folders/1BVVFlkzPcPtTj_lWvqFqvLpvpgHtiAzV?usp=share_link"
+                    target="_blank"
+                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
+                    >Aplikasi Mobile Interaktif</a
+                  >
+                </h3>
+                <p
+                  class="font-medium text-base text-secondary mb-6 text-justify"
+                >
+                  Hasil karya berupa Aplikasi Android yang saya buat dengan
+                  menggunakan software Unity.
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1BVVFlkzPcPtTj_lWvqFqvLpvpgHtiAzV?usp=share_link"
+                  target="_blank"
+                  class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80"
+                  >Lihat Karya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Artworks Section End-->
+
+    <!-- Contacts Section Start-->
+    <section id="contacts" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold uppercase text-lg text-primary mb-2">
+              Kontak
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 md:text-4xl">
+              Hubungi Saya
+            </h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Hubungi saya melalui pesan email atau melalui akun sosial media
+              yang sudah tertera pada bagian
+              <a href="#about" class="font-semibold hover:text-primary"
+                >tentang saya</a
+              >
+              di website ini.
+            </p>
+          </div>
+        </div>
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base font-bold text-primary"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="name"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base font-bold text-primary"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="message" class="text-base font-bold text-primary"
+                >Pesan</label
+              >
+              <textarea
+                type="text"
+                id="message"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
+              >
+              </textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500"
+              >
+                Kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contacts Section End-->
+
+    <!-- Footer Start-->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-xl text-white mb-5 lg:text-3xl">
+              Muhamad Bagas Widyatama
+            </h2>
+            <h3 class="font-bold text-lg mb-2">Hubungi Saya</h3>
+            <p>muhamadbagaswidyatama@gmail.com</p>
+            <p>Bogor, Indonesia</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Keahlian</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >HTML</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >JavaScript</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://nodejs.org/en/docs/"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Node.js</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://tailwindcss.com/docs/installation"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Tailwind CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Bootstrap</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://reactjs.org/docs/getting-started.html"
+                  target="_blank"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >React.js</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Portofolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#certificate"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Sertifikat</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#artworks"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Karya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contacts"
+                  class="inline-block text-sm md:text-base hover:text-primary mb-3"
+                  >Kontak</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Gmail -->
+            <a
+              href="mailto:muhamadbagaswidyatama@gmail.com"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Gmail</title>
+                <path
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/mbw.joy"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+
+            <!-- Github -->
+            <a
+              href="https://www.github.com/muhamadbagas"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/muhamad-bagas-widyatama/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-xs text-slate-500 text-center md:text-sm">
+            Dibuat dengan <span class="text-red-500">❤</span> oleh
+            <a
+              href="https://www.linkedin.com/in/muhamad-bagas-widyatama/"
+              target="_blank"
+              class="font-bold text-primary"
+              >Muhamad Bagas Widyatama</a
+            >, menggunakan
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              class="font-bold text-sky-500"
+              >Tailwind CSS</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
